@@ -1,0 +1,143 @@
+.wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 40px 80px;
+}
+
+.outer {
+  background: var(--gray-200);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.inner {
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.06);
+  padding: 32px;
+}
+
+.firmHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--gray-200);
+  margin-bottom: 24px;
+}
+
+.firmLogo {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+}
+
+.firmName {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.caseInfo {
+  margin-bottom: 32px;
+}
+
+.caseLabel {
+  font-size: 13px;
+  color: var(--gray-600);
+  margin: 0 0 6px;
+}
+
+.stageTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--blue);
+  margin: 0 0 6px;
+}
+
+.timestamp {
+  font-size: 13px;
+  color: var(--gray-400);
+  margin: 0;
+}
+
+.timeline {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.stepNode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.stepCircle,
+.stepCircleActive {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.stepCircle {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+}
+
+.stepCircleActive {
+  background: var(--black);
+}
+
+.stepDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--white);
+}
+
+.stepLabel {
+  font-size: 12px;
+  color: var(--gray-600);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.connector {
+  flex: 1;
+  height: 1px;
+  background: var(--gray-200);
+  margin-top: 11px;
+}
+
+.historyBox {
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 4px 20px;
+}
+
+.historyRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--gray-200);
+  font-size: 14px;
+}
+
+.historyRow:last-child {
+  border-bottom: none;
+}
+
+.historyStage {
+  font-weight: 500;
+}
+
+.historyTimestamp {
+  color: var(--gray-400);
+}

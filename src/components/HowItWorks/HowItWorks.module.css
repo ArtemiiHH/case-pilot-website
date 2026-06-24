@@ -1,0 +1,69 @@
+.section {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: var(--gray-600);
+  letter-spacing: 0.05em;
+  margin: 0 0 12px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0 0 48px;
+}
+
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.step h3 {
+  font-size: 19px;
+  margin: 16px 0 8px;
+}
+
+.step p {
+  font-size: 15px;
+  color: var(--gray-600);
+  margin: 0 0 20px;
+}
+
+.stepNumber {
+  font-size: 13px;
+  color: var(--gray-400);
+  font-weight: 600;
+}
+
+.screenshotSlot {
+  aspect-ratio: 4 / 3;
+  background: var(--gray-100);
+  border-radius: 12px;
+  border: 1px solid var(--gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenshotSlot span {
+  font-size: 13px;
+  color: var(--gray-400);
+}
+
+@media (max-width: 768px) {
+  .stepsGrid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .screenshotSlot {
+    aspect-ratio: 16 / 9;
+  }
+}
