@@ -1,6 +1,5 @@
-import { Fragment } from "react";
 import styles from "./ProductGraphic.module.css";
-import dashboardGraphic from "../../images/dashboard-graphic.png";
+import dashboardGraphic from "../../images/dashboard-graphic-noshadow.png";
 
 export default function ProductGraphic() {
   return (
