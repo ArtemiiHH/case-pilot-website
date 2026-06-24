@@ -22,22 +22,33 @@
 .stepsGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  gap: 40px;
+}
+
+.step {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  overflow: hidden;
 }
 
 .step h3 {
-  font-size: 19px;
-  margin: 16px 0 8px;
+  font-size: 22px;
+  margin: 18px 0 10px;
 }
 
 .step p {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--gray-600);
-  margin: 0 0 20px;
+  margin: 0;
+}
+
+.stepBody {
+  padding: 28px 32px 32px;
 }
 
 .stepNumber {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--gray-400);
   font-weight: 600;
 }
@@ -45,16 +56,18 @@
 .screenshotSlot {
   aspect-ratio: 4 / 3;
   background: var(--gray-100);
-  border-radius: 12px;
-  border: 1px solid var(--gray-200);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-bottom: 1px solid var(--gray-200);
+  overflow: hidden;
 }
 
-.screenshotSlot span {
-  font-size: 13px;
-  color: var(--gray-400);
+.screenshotSlot img {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  border-radius: var(--radius);
+  object-fit: cover;
+  display: block;
+  transform: scale(1.5);
 }
 
 @media (max-width: 768px) {

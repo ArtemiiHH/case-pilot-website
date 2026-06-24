@@ -1,4 +1,7 @@
-import styles from './HowItWorks.module.css'
+import styles from "./HowItWorks.module.css";
+import addCaseImg from "../../images/add-case.png";
+import clientNotificationImg from "../../images/client-notification.png";
+import caseOpenedImg from "../../images/case-opened.png";
 
 export default function HowItWorks() {
   return (
@@ -6,37 +9,53 @@ export default function HowItWorks() {
       <p className={styles.eyebrow}>How it works</p>
       <h2 className={styles.title}>Three steps. No training required.</h2>
 
+      {/* Step cards */}
       <div className={styles.stepsGrid}>
+        {/* Step Card 1 */}
         <div className={styles.step}>
-          <span className={styles.stepNumber}>01</span>
-          <h3>Add a case</h3>
-          <p>Create a case in seconds with the client's name, case type, and starting stage.</p>
           <div className={styles.screenshotSlot}>
-            <span>Add case form</span>
-            {/* Replace with: <img src="screenshot-add-case.png" alt="Add case form" /> */}
+            <img src={addCaseImg} alt="Add case form" />
+          </div>
+          <div className={styles.stepBody}>
+            <span className={styles.stepNumber}>01</span>
+            <h3>Add a case</h3>
+            <p>
+              Create a case in seconds with the client's name, case type, and
+              starting stage.
+            </p>
           </div>
         </div>
 
+        {/* Step Card 2 */}
         <div className={styles.step}>
-          <span className={styles.stepNumber}>02</span>
-          <h3>Send an update</h3>
-          <p>Move the case to its next stage and CasePilot notifies the client automatically.</p>
           <div className={styles.screenshotSlot}>
-            <span>Send update panel</span>
-            {/* Replace with: <img src="screenshot-send-update.png" alt="Send update panel" /> */}
+            <img src={clientNotificationImg} alt="Client notification email" />
+          </div>
+          <div className={styles.stepBody}>
+            <span className={styles.stepNumber}>02</span>
+            <h3>Send an update</h3>
+            <p>
+              Move the case to its next stage and CasePilot notifies the client
+              automatically.
+            </p>
           </div>
         </div>
 
+        {/* Step Card 3 */}
         <div className={styles.step}>
-          <span className={styles.stepNumber}>03</span>
-          <h3>Client stays informed</h3>
-          <p>Your client checks one page anytime to see exactly where their case stands.</p>
           <div className={styles.screenshotSlot}>
-            <span>Client tracking page</span>
-            {/* Replace with: <img src="screenshot-client-view.png" alt="Client tracking page" /> */}
+            <img src={caseOpenedImg} alt="Client tracking page" />
+          </div>
+          <div className={styles.stepBody}>
+            <span className={styles.stepNumber}>03</span>
+            <h3>Client stays informed</h3>
+            <p>
+              Your client checks one page anytime to see exactly where their
+              case stands.
+            </p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
