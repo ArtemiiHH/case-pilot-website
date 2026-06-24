@@ -79,7 +79,7 @@
 }
 
 .imgClientNotification {
-  transform: scale(1);
+  object-position: 80% center;
 }
 
 .imgCaseOpened {
