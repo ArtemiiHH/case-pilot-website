@@ -12,8 +12,9 @@
 }
 
 .logo {
-  font-size: 17px;
-  font-weight: 700;
+  font-family: "Instrument Serif", serif;
+  font-size: 1.7rem;
+  font-weight: 400;
 }
 
 .actions {
