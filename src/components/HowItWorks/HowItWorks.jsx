@@ -14,7 +14,9 @@ export default function HowItWorks() {
         {/* Step Card 1 */}
         <div className={styles.step}>
           <div className={styles.screenshotSlot}>
-            <img src={addCaseImg} alt="Add case form" className={styles.imgAddCase} />
+            <div className={styles.imgFrame}>
+              <img src={addCaseImg} alt="Add case form" className={styles.imgAddCase} />
+            </div>
           </div>
           <div className={styles.stepBody}>
             <span className={styles.stepNumber}>01</span>
@@ -29,11 +31,13 @@ export default function HowItWorks() {
         {/* Step Card 2 */}
         <div className={styles.step}>
           <div className={styles.screenshotSlot}>
-            <img
-              src={clientNotificationImg}
-              alt="Client notification email"
-              className={styles.imgClientNotification}
-            />
+            <div className={styles.imgFrame}>
+              <img
+                src={clientNotificationImg}
+                alt="Client notification email"
+                className={styles.imgClientNotification}
+              />
+            </div>
           </div>
           <div className={styles.stepBody}>
             <span className={styles.stepNumber}>02</span>
@@ -48,7 +52,9 @@ export default function HowItWorks() {
         {/* Step Card 3 */}
         <div className={styles.step}>
           <div className={styles.screenshotSlot}>
-            <img src={caseOpenedImg} alt="Client tracking page" className={styles.imgCaseOpened} />
+            <div className={styles.imgFrame}>
+              <img src={caseOpenedImg} alt="Client tracking page" className={styles.imgCaseOpened} />
+            </div>
           </div>
           <div className={styles.stepBody}>
             <span className={styles.stepNumber}>03</span>
