@@ -1,5 +1,5 @@
 .section {
-  max-width: var(--max);
+  max-width: 1320px;
   margin: 0 auto;
   padding: 80px 40px;
 }
@@ -67,7 +67,18 @@
   border-radius: var(--radius);
   object-fit: cover;
   display: block;
-  transform: scale(1.5);
+}
+
+.imgAddCase {
+  transform: scale(1.3);
+}
+
+.imgClientNotification {
+  transform: scale(1.6);
+}
+
+.imgCaseOpened {
+  transform: scale(1.45);
 }
 
 @media (max-width: 768px) {
