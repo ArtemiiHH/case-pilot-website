@@ -20,7 +20,7 @@ export default function Hero() {
       <div className={styles.ctas}>
         <button
           className={`${appStyles.btnDark} ${appStyles.btnLarge}`}
-          onClick={() => scrollTo("waitlist")}
+          onClick={() => scrollTo("book-demo")}
         >
           Book a Demo
         </button>
