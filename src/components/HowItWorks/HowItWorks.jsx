@@ -15,7 +15,11 @@ export default function HowItWorks() {
         <div className={styles.step}>
           <div className={styles.screenshotSlot}>
             <div className={styles.imgFrame}>
-              <img src={addCaseImg} alt="Add case form" className={styles.imgAddCase} />
+              <img
+                src={addCaseImg}
+                alt="Add case form"
+                className={styles.imgAddCase}
+              />
             </div>
           </div>
           <div className={styles.stepBody}>
@@ -53,12 +57,16 @@ export default function HowItWorks() {
         <div className={styles.step}>
           <div className={styles.screenshotSlot}>
             <div className={styles.imgFrame}>
-              <img src={caseOpenedImg} alt="Client tracking page" className={styles.imgCaseOpened} />
+              <img
+                src={caseOpenedImg}
+                alt="Client tracking page"
+                className={styles.imgCaseOpened}
+              />
             </div>
           </div>
           <div className={styles.stepBody}>
             <span className={styles.stepNumber}>03</span>
-            <h3>Client stays informed</h3>
+            <h3>Client sees it instantly</h3>
             <p>
               Your client checks one page anytime to see exactly where their
               case stands.

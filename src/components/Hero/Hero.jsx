@@ -10,11 +10,12 @@ export default function Hero() {
     <section className={styles.hero}>
       <p className={styles.eyebrow}>Case management for law firms</p>
       <h1 className={styles.title}>
-        Automate <i className={styles.titleItalic}>case updates</i> for your Law Firm
+        Automate <i className={styles.titleItalic}>case updates</i> for your Law
+        Firm
       </h1>
       <p className={styles.subtitle}>
-        Update case stages, notify clients automatically, and track every case
-        matter.
+        Automatically notify clients when their case moves forward — no calls,
+        no emails.
       </p>
       <div className={styles.ctas}>
         <button
