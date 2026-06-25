@@ -16,6 +16,10 @@
   margin: 0 0 12px;
 }
 
+.titleItalic {
+  font-family: "Instrument Serif", serif;
+}
+
 .subtitle {
   font-size: 16px;
   color: var(--gray-600);

@@ -24,7 +24,9 @@ export default function BookDemo() {
   return (
     <section id="book-demo" className={styles.section}>
       <div className={styles.inner}>
-        <h2 className={styles.title}>See CasePilot in action</h2>
+        <h2 className={styles.title}>
+          See <span className={styles.titleItalic}>CasePilot</span> in action
+        </h2>
         <p className={styles.subtitle}>
           30 minutes. I'll walk you through the tool live.
         </p>
