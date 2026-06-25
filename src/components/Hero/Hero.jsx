@@ -22,13 +22,7 @@ export default function Hero() {
           className={`${appStyles.btnDark} ${appStyles.btnLarge}`}
           onClick={() => scrollTo("waitlist")}
         >
-          Get Early Access
-        </button>
-        <button
-          className={`${appStyles.btnGhost} ${appStyles.btnLarge}`}
-          onClick={() => scrollTo("how")}
-        >
-          See how it works
+          Book a Demo
         </button>
       </div>
     </section>
