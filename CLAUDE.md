@@ -22,6 +22,7 @@ src/
     HowItWorks/       HowItWorks.jsx + HowItWorks.module.css
     ClientView/       ClientView.jsx + ClientView.module.css
     WhoItsFor/        WhoItsFor.jsx + WhoItsFor.module.css
+    BookDemo/         BookDemo.jsx + BookDemo.module.css
     Waitlist/         Waitlist.jsx + Waitlist.module.css
     Footer/           Footer.jsx + Footer.module.css
   App.jsx
@@ -58,6 +59,7 @@ Font: system stack — `-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 <HowItWorks>      3-column grid with screenshot slots
 <ClientView>      Text left, mini mockup card right
 <WhoItsFor>       Gray bg, 2-col card grid
+<BookDemo>        Centered H2 + subtext + Calendly inline embed
 <Waitlist>        Centered H2 + email input + button
 <Footer>          Logo | Privacy · Terms · Contact | © year
 ```
@@ -125,6 +127,16 @@ Font: system stack — `-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 - Leave a clear `// TODO: wire up form submission when backend is added` comment
 - Dark button label: "Request Access"
 
+### BookDemo
+- Section id: `book-demo`
+- `border-top: 1px solid var(--gray-200)`, `padding: 100px 40px`
+- Inner content constrained to var(--max), text-align center
+- H2 "See CasePilot in action" + subtitle "30 minutes. I'll walk you through the tool live."
+- Calendly inline embed: `useEffect` loads Calendly's widget CSS and JS into `document.head` on mount, removes them on unmount
+- Embed rendered as `<div class="calendly-inline-widget" data-url={CALENDLY_URL} />`, height 700px
+- Replace `CALENDLY_URL` constant (`https://calendly.com/your-link`) with the real Calendly link when ready
+- At 768px: section padding drops to 60px vertical, embed height grows to 900px to fit the widget
+
 ### Footer
 - `border-top: 1px solid var(--gray-200)`, flex row, space-between, `padding: 32px 40px`
 - Left: "CasePilot" logo text
@@ -146,6 +158,7 @@ Font: system stack — `-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 - HowItWorks `.stepsGrid`: collapses to 1 column, gap 48px; screenshot slots switch to `aspect-ratio: 16/9`
 - ClientView: collapses to 1 column, padding drops to 60px vertical
 - WhoItsFor card grid: collapses to 1 column
+- BookDemo: section padding drops to 60px vertical, embed height grows to 900px
 - Footer: stacks vertically, centered, gap 16px
 
 ## What not to change
@@ -158,8 +171,6 @@ Font: system stack — `-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 - No nav links until additional pages exist.
 
 ## Adding the backend later
-When the "Book a Demo" section is added:
-- Add a `BookDemo` component following the same folder structure
-- Wire the Waitlist form then too — both will likely share the same endpoint
+- Wire the Waitlist form when a backend endpoint is ready — both Waitlist and BookDemo (Calendly) can share the same endpoint for lead capture
 - Suggested: simple Node/Express route or a serverless function (Vercel functions, Netlify functions)
 - Do not add `axios` or any HTTP library until then — keep dependencies minimal for now

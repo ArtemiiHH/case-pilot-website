@@ -1,0 +1,38 @@
+.section {
+  border-top: 1px solid var(--gray-200);
+  padding: 100px 40px;
+}
+
+.inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0 0 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--gray-600);
+  margin: 0 0 40px;
+}
+
+.embed {
+  min-width: 320px;
+  height: 700px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+
+  .embed {
+    height: 900px;
+  }
+}
