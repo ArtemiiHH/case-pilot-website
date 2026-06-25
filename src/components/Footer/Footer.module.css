@@ -7,8 +7,9 @@
 }
 
 .logo {
-  font-size: 15px;
-  font-weight: 700;
+  font-family: "Instrument Serif", serif;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .links {
