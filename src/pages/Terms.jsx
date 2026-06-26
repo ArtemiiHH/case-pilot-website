@@ -7,6 +7,7 @@ export default function Terms() {
     <div className={styles.page}>
       <Nav />
       <main className={styles.main}>
+        <a href="/" className={styles.back}>← Back</a>
         <h1>Terms of Service</h1>
         <p className={styles.meta}>
           Last updated: 26/06/2026 — Effective: 01/07/2026

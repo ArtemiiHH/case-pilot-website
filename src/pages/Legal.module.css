@@ -58,6 +58,20 @@
   margin: 48px 0;
 }
 
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--gray-600);
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.back:hover {
+  color: var(--black);
+}
+
 @media (max-width: 768px) {
   .main {
     padding: 60px 24px;
