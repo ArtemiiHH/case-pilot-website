@@ -11,102 +11,102 @@ export default function Privacy() {
         <p className={styles.meta}>Last updated: [Date] · Effective: [Date]</p>
 
         <p>
-          This Privacy Policy explains how [Your Law Firm Name] ("we", "us", or
-          "our") collects, uses, and protects personal data when you use
-          CasePilot, our case management platform. We are committed to complying
-          with the EU General Data Protection Regulation (GDPR) and applicable
-          Cypriot data protection law.
+          This Privacy Policy explains how CasePilot ("we", "us", or "our"),
+          operated by [Your Full Name], collects and uses personal data about
+          the lawyers and legal professionals ("users") who sign up to use our
+          platform. It does not cover client data entered by users into the
+          platform — that data is controlled exclusively by the user.
         </p>
 
         <hr />
 
         <h2>1. Who we are</h2>
         <p>
-          The data controller is [Your Law Firm Name], registered at [Registered
-          Address, Cyprus], registration number [Reg. No.]. For data protection
-          enquiries, contact us at [privacy@yourfirm.com].
+          CasePilot is operated by [Your Full Name], contactable at
+          [your@email.com]. We are the data controller only in respect of the
+          account data described below.
         </p>
 
-        <h2>2. What data we collect</h2>
-        <p>We collect and store the following personal data about clients:</p>
+        <h2>2. What data we collect about you (the lawyer)</h2>
+        <p>When you sign up and use CasePilot, we collect:</p>
         <ul>
-          <li>First name and last name</li>
-          <li>Email address</li>
-          <li>Case type (e.g. Personal Injury, Immigration, Criminal Defence)</li>
-          <li>Case stage and update history</li>
-          <li>Notes added by the assigned lawyer</li>
+          <li>Your name and email address</li>
+          <li>Your law firm or practice name and logo (if provided)</li>
+          <li>
+            Billing information, processed by our payment provider [e.g. Stripe]
+          </li>
+          <li>Usage data such as login timestamps and feature activity</li>
         </ul>
         <p>
-          We do not collect sensitive special-category data (such as health,
-          biometric, or financial data) through this platform.
+          We do <strong>not</strong> have access to, or control over, any client
+          data you enter into the platform.
         </p>
 
-        <h2>3. Why we collect it and our lawful basis</h2>
+        <h2>3. What we do not control</h2>
         <p>
-          We process your data to manage and administer your legal case. Our
-          lawful basis under GDPR Article 6 is:
+          CasePilot is a tool for legal professionals to manage their own client
+          cases. Any personal data you enter about your clients — including
+          names, email addresses, and case details — is stored in your account
+          on Supabase and is under your sole control as the data controller. We
+          act only as a data processor in respect of that data, as set out in
+          our Data Processing Agreement.
+        </p>
+
+        <h2>4. Why we collect your data and our lawful basis</h2>
+        <p>We process your account data to:</p>
+        <ul>
+          <li>Create and manage your CasePilot account</li>
+          <li>Provide and improve the platform</li>
+          <li>
+            Send you service-related communications (e.g. billing receipts,
+            updates)
+          </li>
+        </ul>
+        <p>
+          Our lawful basis is <strong>performance of a contract</strong>{" "}
+          (providing you the service you signed up for) and{" "}
+          <strong>legitimate interests</strong> (maintaining and improving the
+          platform).
+        </p>
+
+        <h2>5. Who we share your data with</h2>
+        <p>
+          We use the following third-party providers who may process your
+          account data on our behalf:
         </p>
         <ul>
           <li>
-            <strong>Performance of a contract</strong> — to deliver the legal
-            services you engaged us for
+            <strong>Supabase</strong> — database and infrastructure hosting
           </li>
           <li>
-            <strong>Legitimate interests</strong> — to maintain accurate case
-            records and communicate updates to you
+            <strong>[Stripe or your payment provider]</strong> — payment
+            processing
           </li>
           <li>
-            <strong>Legal obligation</strong> — where applicable law requires us
-            to retain certain records
+            <strong>[Any email provider, e.g. Resend / SendGrid]</strong> —
+            transactional email delivery
           </li>
         </ul>
+        <p>Each provider is bound by appropriate data processing terms.</p>
 
-        <h2>4. How long we keep your data</h2>
+        <h2>6. How long we keep your data</h2>
         <p>
-          We retain client data for [e.g. 7 years] from the date your case is
-          closed, in accordance with legal professional obligations and applicable
-          limitation periods. After this period, data is securely deleted.
+          We retain your account data for as long as your account is active, and
+          for up to [e.g. 2 years] after account closure for legitimate business
+          purposes such as billing records. You may request deletion at any time.
         </p>
 
-        <h2>5. Who we share data with</h2>
+        <h2>7. Your rights</h2>
         <p>
-          We do not sell or share your personal data with third parties for
-          marketing. Data may be shared with:
-        </p>
-        <ul>
-          <li>
-            Our database and hosting provider ([e.g. Supabase / Firebase]), with
-            whom we have a Data Processing Agreement
-          </li>
-          <li>Courts, regulatory bodies, or authorities where required by law</li>
-          <li>
-            Other legal professionals engaged by your firm on your matter, under
-            confidentiality obligations
-          </li>
-        </ul>
-
-        <h2>6. Your rights under GDPR</h2>
-        <p>
-          You have the right to: access your data, correct inaccurate data,
-          request erasure (subject to legal retention obligations), restrict or
-          object to processing, and data portability. To exercise any right,
-          contact [privacy@yourfirm.com]. You also have the right to lodge a
-          complaint with the Cyprus Commissioner for Personal Data Protection.
-        </p>
-
-        <h2>7. Security</h2>
-        <p>
-          We implement appropriate technical and organisational measures to
-          protect your data against unauthorised access, alteration, disclosure,
-          or destruction. Access to case data is restricted to authorised staff
-          only.
+          You have the right to access, correct, or delete your account data,
+          restrict or object to processing, and data portability. To exercise
+          any right, contact [your@email.com].
         </p>
 
         <h2>8. Changes to this policy</h2>
         <p>
-          We may update this policy from time to time. The current version will
-          always be available within CasePilot. Significant changes will be
-          communicated to you directly.
+          We may update this policy from time to time. We will notify you of
+          significant changes by email or via the platform.
         </p>
       </main>
       <Footer />

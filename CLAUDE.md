@@ -196,74 +196,77 @@ Font: system stack — `-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 
 # Privacy Policy
 
-**Last updated:** [Date]  
+**Last updated:** [Date]
 **Effective:** [Date]
 
-This Privacy Policy explains how [Your Law Firm Name] ("we", "us", or "our") collects, uses, and protects personal data when you use CasePilot, our case management platform. We are committed to complying with the EU General Data Protection Regulation (GDPR) and applicable Cypriot data protection law.
+This Privacy Policy explains how CasePilot ("we", "us", or "our"), operated by [Your Full Name], collects and uses personal data about the lawyers and legal professionals ("users") who sign up to use our platform. It does not cover client data entered by users into the platform — that data is controlled exclusively by the user.
 
 ---
 
 ## 1. Who we are
 
-The data controller is [Your Law Firm Name], registered at [Registered Address, Cyprus], registration number [Reg. No.]. For data protection enquiries, contact us at [privacy@yourfirm.com].
+CasePilot is operated by [Your Full Name], contactable at [your@email.com]. We are the data controller only in respect of the account data described below.
 
 ---
 
-## 2. What data we collect
+## 2. What data we collect about you (the lawyer)
 
-We collect and store the following personal data about clients:
+When you sign up and use CasePilot, we collect:
 
-- First name and last name
-- Email address
-- Case type (e.g. Personal Injury, Immigration, Criminal Defence)
-- Case stage and update history
-- Notes added by the assigned lawyer
+- Your name and email address
+- Your law firm or practice name and logo (if provided)
+- Billing information, processed by our payment provider [e.g. Stripe]
+- Usage data such as login timestamps and feature activity
 
-We do not collect sensitive special-category data (such as health, biometric, or financial data) through this platform.
-
----
-
-## 3. Why we collect it and our lawful basis
-
-We process your data to manage and administer your legal case. Our lawful basis under GDPR Article 6 is:
-
-- **Performance of a contract** — to deliver the legal services you engaged us for
-- **Legitimate interests** — to maintain accurate case records and communicate updates to you
-- **Legal obligation** — where applicable law requires us to retain certain records
+We do **not** have access to, or control over, any client data you enter into the platform.
 
 ---
 
-## 4. How long we keep your data
+## 3. What we do not control
 
-We retain client data for [e.g. 7 years] from the date your case is closed, in accordance with legal professional obligations and applicable limitation periods. After this period, data is securely deleted.
-
----
-
-## 5. Who we share data with
-
-We do not sell or share your personal data with third parties for marketing. Data may be shared with:
-
-- Our database and hosting provider ([e.g. Supabase / Firebase]), with whom we have a Data Processing Agreement
-- Courts, regulatory bodies, or authorities where required by law
-- Other legal professionals engaged by your firm on your matter, under confidentiality obligations
+CasePilot is a tool for legal professionals to manage their own client cases. Any personal data you enter about your clients — including names, email addresses, and case details — is stored in your account on Supabase and is under your sole control as the data controller. We act only as a data processor in respect of that data, as set out in our Data Processing Agreement.
 
 ---
 
-## 6. Your rights under GDPR
+## 4. Why we collect your data and our lawful basis
 
-You have the right to: access your data, correct inaccurate data, request erasure (subject to legal retention obligations), restrict or object to processing, and data portability. To exercise any right, contact [privacy@yourfirm.com]. You also have the right to lodge a complaint with the Cyprus Commissioner for Personal Data Protection.
+We process your account data to:
+
+- Create and manage your CasePilot account
+- Provide and improve the platform
+- Send you service-related communications (e.g. billing receipts, updates)
+
+Our lawful basis is **performance of a contract** (providing you the service you signed up for) and **legitimate interests** (maintaining and improving the platform).
 
 ---
 
-## 7. Security
+## 5. Who we share your data with
 
-We implement appropriate technical and organisational measures to protect your data against unauthorised access, alteration, disclosure, or destruction. Access to case data is restricted to authorised staff only.
+We use the following third-party providers who may process your account data on our behalf:
+
+- **Supabase** — database and infrastructure hosting
+- **[Stripe or your payment provider]** — payment processing
+- **[Any email provider, e.g. Resend / SendGrid]** — transactional email delivery
+
+Each provider is bound by appropriate data processing terms.
+
+---
+
+## 6. How long we keep your data
+
+We retain your account data for as long as your account is active, and for up to [e.g. 2 years] after account closure for legitimate business purposes such as billing records. You may request deletion at any time.
+
+---
+
+## 7. Your rights
+
+You have the right to access, correct, or delete your account data, restrict or object to processing, and data portability. To exercise any right, contact [your@email.com].
 
 ---
 
 ## 8. Changes to this policy
 
-We may update this policy from time to time. The current version will always be available within CasePilot. Significant changes will be communicated to you directly.
+We may update this policy from time to time. We will notify you of significant changes by email or via the platform.
 
 ---
 
@@ -271,28 +274,35 @@ We may update this policy from time to time. The current version will always be 
 
 # Terms of Service
 
-**Last updated:** [Date]  
+**Last updated:** [Date]
 **Effective:** [Date]
 
-These Terms of Service govern your use of CasePilot, operated by [Your Law Firm Name]. By accessing the platform, you agree to these terms.
+These Terms of Service ("Terms") govern your access to and use of CasePilot, a case management platform operated by [Your Full Name] ("we", "us", or "our"). By creating an account, you agree to these Terms.
 
 ---
 
-## 1. Who may use CasePilot
+## 1. The service
 
-CasePilot is a private platform. Access is granted only to authorised lawyers and staff of [Your Law Firm Name], and to clients who have been issued a case tracking link. Unauthorised access or sharing of login credentials is prohibited.
-
----
-
-## 2. The service
-
-CasePilot provides a case management interface allowing lawyers to create and update client cases, and clients to view the status of their matter via a secure tracking link. The platform does not constitute legal advice. All advice is provided separately through your engagement with the firm.
+CasePilot is a SaaS platform that allows legal professionals to manage client cases, track case stages, and share status updates with clients via secure tracking links. We provide the platform as a tool only — we do not provide legal advice, and we are not a party to any relationship between you and your clients.
 
 ---
 
-## 3. Client tracking links
+## 2. Your account
 
-Each client receives a unique tracking link to view their case status. This link should be kept confidential. [Your Law Firm Name] is not responsible for unauthorised access resulting from a client sharing their tracking link with others.
+You must provide accurate information when signing up. You are responsible for maintaining the security of your account credentials and for all activity that occurs under your account. Notify us immediately at [your@email.com] if you suspect unauthorised access.
+
+---
+
+## 3. Your responsibilities as a data controller
+
+By using CasePilot to store client data, you acknowledge that:
+
+- You are the **data controller** for all client personal data you enter into the platform
+- You are responsible for ensuring you have a lawful basis to process your clients' data
+- You are responsible for complying with GDPR and any other applicable data protection law in your jurisdiction
+- You must have your own Privacy Policy in place for your clients
+
+We act as your **data processor** in respect of client data. Our Data Processing Agreement, available at [link or "on request"], governs this relationship and must be accepted before using the platform with real client data.
 
 ---
 
@@ -300,43 +310,102 @@ Each client receives a unique tracking link to view their case status. This link
 
 You agree not to:
 
-- Attempt to access cases or data you are not authorised to view
-- Use the platform for any unlawful purpose
+- Use CasePilot for any unlawful purpose
+- Enter data into the platform without a lawful basis to process it
+- Attempt to access other users' accounts or data
+- Reverse engineer, copy, or redistribute any part of the platform
 - Introduce malicious code or attempt to disrupt the service
-- Misrepresent your identity or affiliation
 
 ---
 
-## 5. Data and confidentiality
+## 5. Platform availability
 
-Case data stored in CasePilot is confidential and subject to legal professional privilege where applicable. All staff with access to the platform are bound by professional and contractual confidentiality obligations. Our handling of personal data is described in our Privacy Policy.
-
----
-
-## 6. Availability and liability
-
-We aim to keep CasePilot available at all times but cannot guarantee uninterrupted access. We are not liable for losses arising from platform downtime, data loss due to third-party infrastructure failure, or use of the platform contrary to these terms. Nothing in these terms limits liability for fraud, gross negligence, or any liability that cannot be excluded by law.
+We aim to keep CasePilot available at all times but do not guarantee uninterrupted access. We are not liable for losses arising from downtime or third-party infrastructure failures (including those of Supabase or other providers).
 
 ---
 
-## 7. Intellectual property
+## 6. Intellectual property
 
-CasePilot and all associated software, design, and content are the property of [Your Law Firm Name]. You may not copy, modify, or redistribute any part of the platform without prior written consent.
-
----
-
-## 8. Governing law
-
-These terms are governed by the laws of the Republic of Cyprus. Any disputes shall be subject to the exclusive jurisdiction of the courts of Cyprus.
+CasePilot, including its design, code, and branding, is the property of [Your Full Name]. Your firm name, logo, and content you upload remain your own. You grant us a limited licence to display your branding within the platform solely for the purpose of delivering the service (e.g. showing your logo in client-facing emails).
 
 ---
 
-## 9. Changes to these terms
+## 7. Payment and cancellation
 
-We may update these terms from time to time. Continued use of CasePilot after changes are posted constitutes acceptance of the updated terms.
+[Add your pricing and cancellation terms here when you have them. For example: subscription terms, refund policy, what happens to data on cancellation.]
 
 ---
 
-## 10. Contact
+## 8. Limitation of liability
 
-For any questions about these terms, contact us at [legal@yourfirm.com].
+To the maximum extent permitted by law, we are not liable for any indirect, incidental, or consequential losses arising from your use of CasePilot. Our total liability to you shall not exceed the amount you paid us in the 3 months preceding the claim. Nothing in these terms excludes liability for fraud or gross negligence.
+
+---
+
+## 9. Governing law
+
+These Terms are governed by the laws of the Republic of Cyprus. Any disputes shall be subject to the exclusive jurisdiction of the courts of Cyprus.
+
+---
+
+## 10. Changes to these terms
+
+We may update these Terms from time to time. We will notify you of material changes by email or via the platform. Continued use after changes take effect constitutes acceptance.
+
+---
+
+## 11. Contact
+
+For any questions about these Terms, contact [your@email.com].
+
+---
+
+---
+
+# Data Processing Agreement (DPA)
+
+**Between:** [Your Full Name], operating CasePilot ("Processor")
+**And:** The legal professional or firm using CasePilot ("Controller")
+
+---
+
+## 1. Purpose
+
+This DPA governs the processing of personal data by CasePilot on behalf of the Controller, as required by GDPR Article 28.
+
+---
+
+## 2. Nature of processing
+
+CasePilot stores and displays client personal data (names, email addresses, case details) entered by the Controller, solely for the purpose of providing the case management service.
+
+---
+
+## 3. Processor obligations
+
+CasePilot agrees to:
+
+- Process client data only on documented instructions from the Controller
+- Ensure that persons authorised to process the data are bound by confidentiality
+- Implement appropriate technical and organisational security measures
+- Assist the Controller in responding to data subject rights requests where reasonably possible
+- Delete or return all personal data upon termination of the service, at the Controller's choice
+- Make available all information necessary to demonstrate compliance with this DPA
+
+---
+
+## 4. Sub-processors
+
+CasePilot uses Supabase as a sub-processor for database hosting. Supabase's data processing terms are available at supabase.com/privacy. We will notify you of any changes to sub-processors.
+
+---
+
+## 5. Data transfers
+
+Client data is stored on Supabase infrastructure. Supabase is compliant with GDPR and provides appropriate safeguards for any international data transfers.
+
+---
+
+## 6. Governing law
+
+This DPA is governed by the laws of the Republic of Cyprus.
