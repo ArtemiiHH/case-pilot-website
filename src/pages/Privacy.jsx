@@ -8,7 +8,9 @@ export default function Privacy() {
       <Nav />
       <main className={styles.main}>
         <h1>Privacy Policy</h1>
-        <p className={styles.meta}>Last updated: [Date] · Effective: [Date]</p>
+        <p className={styles.meta}>
+          Last updated: 26/06/2026 — Effective: 01/07/2026
+        </p>
 
         <p>
           This Privacy Policy explains how CasePilot ("we", "us", or "our"),

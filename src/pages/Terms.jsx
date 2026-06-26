@@ -8,11 +8,13 @@ export default function Terms() {
       <Nav />
       <main className={styles.main}>
         <h1>Terms of Service</h1>
-        <p className={styles.meta}>Last updated: [Date] · Effective: [Date]</p>
+        <p className={styles.meta}>
+          Last updated: 26/06/2026 — Effective: 01/07/2026
+        </p>
 
         <p>
           These Terms of Service ("Terms") govern your access to and use of
-          CasePilot, a case management platform operated by [Your Full Name]
+          CasePilot, a case management platform operated by Artemii Barashkov
           ("we", "us", or "our"). By creating an account, you agree to these
           Terms.
         </p>
@@ -33,7 +35,11 @@ export default function Terms() {
           You must provide accurate information when signing up. You are
           responsible for maintaining the security of your account credentials
           and for all activity that occurs under your account. Notify us
-          immediately at [your@email.com] if you suspect unauthorised access.
+          immediately at{" "}
+          <a href="mailto:artemii.barashkov.dev@gmail.com">
+            artemii.barashkov.dev@gmail.com
+          </a>{" "}
+          if you suspect unauthorised access.
         </p>
 
         <h2>3. Your responsibilities as a data controller</h2>
@@ -45,7 +51,7 @@ export default function Terms() {
           </li>
           <li>
             You are responsible for ensuring you have a lawful basis to process
-            your clients' data
+            your client's data
           </li>
           <li>
             You are responsible for complying with GDPR and any other applicable
@@ -57,9 +63,9 @@ export default function Terms() {
         </ul>
         <p>
           We act as your <strong>data processor</strong> in respect of client
-          data. Our Data Processing Agreement, available at [link or "on
-          request"], governs this relationship and must be accepted before using
-          the platform with real client data.
+          data. Our Data Processing Agreement, available on request, governs
+          this relationship and must be accepted before using the platform with
+          real client data.
         </p>
 
         <h2>4. Acceptable use</h2>
@@ -69,7 +75,7 @@ export default function Terms() {
           <li>
             Enter data into the platform without a lawful basis to process it
           </li>
-          <li>Attempt to access other users' accounts or data</li>
+          <li>Attempt to access other users accounts or data</li>
           <li>
             Reverse engineer, copy, or redistribute any part of the platform
           </li>
@@ -87,7 +93,7 @@ export default function Terms() {
         <h2>6. Intellectual property</h2>
         <p>
           CasePilot, including its design, code, and branding, is the property
-          of [Your Full Name]. Your firm name, logo, and content you upload
+          of Artemii Barashkov. Your firm name, logo, and content you upload
           remain your own. You grant us a limited licence to display your
           branding within the platform solely for the purpose of delivering the
           service (e.g. showing your logo in client-facing emails).
@@ -125,7 +131,11 @@ export default function Terms() {
 
         <h2>11. Contact</h2>
         <p>
-          For any questions about these Terms, contact [your@email.com].
+          For any questions about these Terms, contact{" "}
+          <a href="mailto:artemii.barashkov.dev@gmail.com">
+            artemii.barashkov.dev@gmail.com
+          </a>
+          .
         </p>
       </main>
       <Footer />
