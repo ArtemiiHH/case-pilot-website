@@ -12,7 +12,7 @@ export default function Privacy() {
 
         <p>
           This Privacy Policy explains how CasePilot ("we", "us", or "our"),
-          operated by [Your Full Name], collects and uses personal data about
+          operated by Artemii Barashkov, collects and uses personal data about
           the lawyers and legal professionals ("users") who sign up to use our
           platform. It does not cover client data entered by users into the
           platform — that data is controlled exclusively by the user.
@@ -22,9 +22,12 @@ export default function Privacy() {
 
         <h2>1. Who we are</h2>
         <p>
-          CasePilot is operated by [Your Full Name], contactable at
-          [your@email.com]. We are the data controller only in respect of the
-          account data described below.
+          CasePilot is operated by Artemii Barashkov, contactable at{" "}
+          <a href="mailto:artemii.barashkov.dev@gmail.com">
+            artemii.barashkov.dev@gmail.com
+          </a>
+          . We are the data controller only in respect of the account data
+          described below.
         </p>
 
         <h2>2. What data we collect about you (the lawyer)</h2>
@@ -49,7 +52,7 @@ export default function Privacy() {
           names, email addresses, and case details — is stored in your account
           on Supabase and is under your sole control as the data controller. We
           act only as a data processor in respect of that data, as set out in
-          our Data Processing Agreement.
+          our DPA(Data Processing Agreement).
         </p>
 
         <h2>4. Why we collect your data and our lawful basis</h2>
@@ -79,12 +82,10 @@ export default function Privacy() {
             <strong>Supabase</strong> — database and infrastructure hosting
           </li>
           <li>
-            <strong>[Stripe or your payment provider]</strong> — payment
-            processing
+            <strong>Stripe</strong> — payment processing
           </li>
           <li>
-            <strong>[Any email provider, e.g. Resend / SendGrid]</strong> —
-            transactional email delivery
+            <strong>Resend</strong> — transactional email delivery
           </li>
         </ul>
         <p>Each provider is bound by appropriate data processing terms.</p>
@@ -92,15 +93,20 @@ export default function Privacy() {
         <h2>6. How long we keep your data</h2>
         <p>
           We retain your account data for as long as your account is active, and
-          for up to [e.g. 2 years] after account closure for legitimate business
-          purposes such as billing records. You may request deletion at any time.
+          for up to 2 years after account closure for legitimate business
+          purposes such as billing records. You may request deletion at any
+          time.
         </p>
 
         <h2>7. Your rights</h2>
         <p>
           You have the right to access, correct, or delete your account data,
           restrict or object to processing, and data portability. To exercise
-          any right, contact [your@email.com].
+          any right, contact{" "}
+          <a href="mailto:artemii.barashkov.dev@gmail.com">
+            artemii.barashkov.dev@gmail.com
+          </a>
+          .
         </p>
 
         <h2>8. Changes to this policy</h2>
