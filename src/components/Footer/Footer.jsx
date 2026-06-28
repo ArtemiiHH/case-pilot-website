@@ -4,7 +4,9 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.logo}>CasePilot</div>
+      <div className={styles.logo}>
+        <a href="#">CasePilot</a>
+      </div>
       <div className={styles.links}>
         <Link to="/privacy">Privacy Policy</Link>
         <Link to="/terms">Terms of Service</Link>

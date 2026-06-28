@@ -12,6 +12,11 @@
   font-weight: 400;
 }
 
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
 .links {
   display: flex;
   align-items: center;
