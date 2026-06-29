@@ -23,7 +23,7 @@ CasePilot gives every client a personal tracking link. When you update a case st
 
 Every active and resolved case lives in one table. Filter by status, click into any case, or add a new one in seconds.
 
-![CasePilot lawyer dashboard](images/dashboard.png)
+![CasePilot lawyer dashboard](https://github.com/user-attachments/assets/cd07041c-6c8f-416d-83b2-1334c54da13e)
 
 ---
 
