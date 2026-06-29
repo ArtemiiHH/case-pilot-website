@@ -31,7 +31,7 @@ Every active and resolved case lives in one table. Filter by status, click into 
 
 Enter the client's name, email, case type, and starting stage. No setup, no configuration — just fill in the form and hit **Create case**.
 
-![Add case form](images/add-case.png)
+![Add case form](https://github.com/user-attachments/assets/2eee53cb-f244-45b8-8b85-19cff77698f6)
 
 ---
 
@@ -39,7 +39,7 @@ Enter the client's name, email, case type, and starting stage. No setup, no conf
 
 When you update a case stage, CasePilot sends the client an email straight to their inbox. No manual follow-up needed.
 
-![Client email notification](images/email-notification.png)
+![Client email notification](https://github.com/user-attachments/assets/5710b8c5-4e3a-458d-835c-e6e7d09300fb)
 
 ---
 
@@ -47,7 +47,7 @@ When you update a case stage, CasePilot sends the client an email straight to th
 
 Every client gets a personal tracking link. They can check it anytime — no login required. It shows their current stage, a full visual timeline, and every update you've sent.
 
-![Client live tracking page](images/client-tracking.png)
+![Client live tracking page](https://github.com/user-attachments/assets/371cc0f1-e3a2-4c66-976a-bc114dbf5627)
 
 ---
 
