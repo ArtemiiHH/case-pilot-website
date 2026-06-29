@@ -19,14 +19,35 @@ CasePilot gives every client a personal tracking link. When you update a case st
 
 ## How it works
 
-**1. Add a case**  
-Enter the client's name, email, case type, and starting stage. Takes about 10 seconds.
+### 1. Manage all your cases from one dashboard
 
-**2. Send an update**  
-Move the case to its next stage from the lawyer dashboard at [app.getcasepilot.co](https://app.getcasepilot.co). Add an optional note for context.
+Every active and resolved case lives in one table. Filter by status, click into any case, or add a new one in seconds.
 
-**3. Client sees it instantly**  
-CasePilot notifies the client automatically. They can check their tracking page anytime — no login required.
+![CasePilot lawyer dashboard](images/dashboard.png)
+
+---
+
+### 2. Add a case in seconds
+
+Enter the client's name, email, case type, and starting stage. No setup, no configuration — just fill in the form and hit **Create case**.
+
+![Add case form](images/add-case.png)
+
+---
+
+### 3. Client gets notified automatically
+
+When you update a case stage, CasePilot sends the client an email straight to their inbox. No manual follow-up needed.
+
+![Client email notification](images/email-notification.png)
+
+---
+
+### 4. Client tracks their case live
+
+Every client gets a personal tracking link. They can check it anytime — no login required. It shows their current stage, a full visual timeline, and every update you've sent.
+
+![Client live tracking page](images/client-tracking.png)
 
 ---
 
@@ -43,17 +64,6 @@ Cases move through a standard pipeline:
 - **Solo practitioners** — Create a case once, and your client sees every update without you lifting the phone.
 - **Small law firms** — Keep every paralegal and partner aligned on case status, without another status meeting.
 - **Medium law firms** — Standardize client communication across every practice group. Every client gets the same professional experience, no matter which attorney handles their case.
-
----
-
-## The product
-
-The full CasePilot product lives at **[app.getcasepilot.co](https://app.getcasepilot.co)** and includes:
-
-- **Lawyer dashboard** — Manage all active and resolved cases from one table. Filter by status, add cases, send updates.
-- **Case detail view** — Per-case stage selector, optional notes, and a full update history log.
-- **Client tracking page** — A public, shareable link for each case. Clients see their current stage, a visual progress timeline, and every past update.
-- **Firm branding** — The client-facing page shows your firm's name and logo, not ours.
 
 ---
 
